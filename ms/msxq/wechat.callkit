@@ -1,0 +1,9 @@
+{
+	"name": "WeChatCallKit「微信电话接口」",
+	"desc_short": "开启微信电话接口功能,使通话录音能够拾取微信录音.",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>2019-05-02更新支持A12<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}

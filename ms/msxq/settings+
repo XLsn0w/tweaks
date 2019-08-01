@@ -1,0 +1,9 @@
+{
+	"name": "Settings+「界面美化」",
+	"desc_short": "隐藏系统更新1小红点、去设置分割线.去设置顶部搜索",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}

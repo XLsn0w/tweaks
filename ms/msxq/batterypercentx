@@ -1,0 +1,9 @@
+{
+	"name": "BatteryPercentX 「电池百分比汉化版」",
+	"desc_short": "打开 iPhone X通知栏电池百分比",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:11-12",
+	"changelog": "<strong>历史变跟</strong><br>2019-05-03更新支持A12<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/batterypercentx.png'/></a><br></div>",
+	"open": true,
+}

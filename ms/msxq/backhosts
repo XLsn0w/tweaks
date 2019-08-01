@@ -1,0 +1,9 @@
+{
+	"name": "屏蔽证书过期「还原hosts」",
+	"desc_short": "安装之后,不可抹掉还原，不可抹掉还原，不可抹掉还原。请先卸载插件再进行操作。ios11越狱用户可以直接使用此插件，来还原hosts文件无任何负作用，卸载之后会还原hosts文件，可以进行抹除还原操作，抹除有风险操作需谨慎。屏蔽证书过期，原理就是修改hosts文件，安装自动修改hosts文件添加屏蔽代码，卸载之后自动还原官方hosts文件，没有其他负作用，安装之后不可直接抹除手机或者还原，请先卸载之后再进行操作。无任何副作用。",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}

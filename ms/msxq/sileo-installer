@@ -1,0 +1,9 @@
+{
+	"name": "Sileo for unc0ver",
+	"desc_short": "在Unc0ver上安全安装官方Sileo。在ssh或mterminal上运行命令“installsileo”进行安装，并运行“removesileo”进行卸载。为了使其正常工作，请在安装后重新启用重新加载系统守护程序。如sileo安装程序更新,只需在运行一次安装命令即可.如sileo显示更新项目不要更新,因为那是来自electra的项目.如不是electra的项目请正常更新.",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/sileo-installer.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/sileo-installer1.png'/><img width=95% src='https://sileo-cydia.github.io/tupian/sileo-installer2.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/sileo-installer3.png'/></a><br></div>",
+	"open": true,
+}

@@ -1,0 +1,296 @@
+{
+    "minVersion": "0.1",
+    "headerImage": "https://creaturecoding.com/content/projects/shuffle/shuffle_banner.jpeg",
+    "tintColor": "#ff6348",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "markdown": "## shuffle\nMix Up your preferences!",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 8,
+                    "itemSize": "{160, 346}",
+                    "screenshots": [
+                        {
+							"url": "https://creaturecoding.com/content/projects/shuffle/screenshots/screen_1.jpeg",
+							"accessibilityText": "Screenshot"
+						},{
+							"url": "https://creaturecoding.com/content/projects/shuffle/screenshots/screen_2.jpeg",
+							"accessibilityText": "Screenshot"
+						},{
+							"url": "https://creaturecoding.com/content/projects/shuffle/screenshots/screen_3.jpeg",
+							"accessibilityText": "Screenshot"
+						},{
+							"url": "https://creaturecoding.com/content/projects/shuffle/screenshots/screen_4.jpeg",
+							"accessibilityText": "Screenshot"
+						},{
+							"url": "https://creaturecoding.com/content/projects/shuffle/screenshots/screen_5.jpeg",
+							"accessibilityText": "Screenshot"
+						}
+                    ]
+                },
+                {
+                    "spacing": 8,
+                    "class": "DepictionSpacerView"
+                },
+                {
+                    "markdown": "## shuffle\n\nshuffle is a preference.app tweak that organizes your settings into easier to navigate sections.\n\n- *tweaks section* for accessing all of your tweak settings\n- *system apps section* for all settings related to stock apps\n- *AppStore apps section* for all settings related to 3rd Party apps\n\nshuffle also adds useful options for managing tweaks like: \n\n- copying you tweak list\n- browsing installed packages\n- hiding tweak preferences\n- disabling tweak dylibs (compatible with iCleaner dylib manager)\n- viewing tweak info/depictions\n- uninstalling tweaks\n\nfeel free to reach out if you have any feature suggestions!",
+                    "useSpacing": true,
+                    "class": "DepictionMarkdownView"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "title": "Version",
+                    "text": "0.9.6b",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Last Update",
+                    "text": "5/3/19",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "License",
+                    "text": "Free",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Developer",
+                    "text": "Creature Survive",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "title": "Compatibility",
+                    "text": "iOS 10.0 to 12.1.3",
+                    "class": "DepictionTableTextView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Support",
+                    "action": "mailto:support@creaturecoding.com?subject=shuffle+%280.9.6b%29",
+                    "openExternal": true
+                },
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                
+					{
+						"title": "0.9.6b",
+						"text": "5/3/19",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Moved new icons to `/Library/PreferenceBundles/shuffle.bundle` for easier themeing support\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.9.5b",
+						"text": "5/3/19",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added support for Sileo source lists in the Advanced section\n- You can now view and copy your Sileo/Cydia sources individually\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.9.3b",
+						"text": "5/3/19",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Fixed disabling *Move To Top* making shuffle groups disappear for some users\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.9.1b",
+						"text": "5/3/19",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added New tweak icon\n- New icons for the Advanced section\n- New icon for the Tweaks section\n- Icons are now themeable in `/Library/Application Support/shuffle/shuffle.bundle` for theme developers\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.9.0b",
+						"text": "5/1/19",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added option to copy source list from sources section\n- Added iCleaner compatibility to the dylib manager\n- Added restrictions to prevent disabling shuffle in the dylib manager\n- optimized icon loading\n- Added A12(`arm64e`) support\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.8.0b",
+						"text": "10/8/18",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added option to move shuffle group to the top of settings\n- Added System Apps section\n- Rewrote Force Touch support\n- Added Advances section\n- General optimizations and refactoring\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.6.6b",
+						"text": "5/22/18",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added icons for preference bundles with missing icons\n- Added icons for Packages and dylibs sections\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.6.5b",
+						"text": "5/22/18",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Hotfix for issue where packages marked as 'Ignore Upgrades' would cause the settings app to crash when viewing the package info\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.6.4b",
+						"text": "5/22/18",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added 'App Storage' section to the Apps group\n- Added 'Tweak Dylibs' section to the tweaks group\n- Added 'Debian Packages' section to the tweaks group\n- Added 'Status' section to DPKG group for viewing package details\n- Added option to remove debs\n- Added option to disable tweaks\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.5.9b",
+						"text": "5/21/18",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added settings icon\n- Added option to disable 3DTouch (doesn't disable within libCSPreferences bundles)\n- Added options to enable/disable individual tweak preference bundles.\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.5.7b",
+						"text": "5/21/5",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- Added 3DTouch support throughout the Settings app\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					},
+					{
+						"title": "0.5.0b",
+						"text": "5/21/18",
+						"class": "DepictionTableTextView"
+					},
+					{
+						"markdown": "- initial release\n",
+						"useSpacing": false,
+						"class": "DepictionMarkdownView"
+					},
+					{
+						"spacing": 8,
+						"class": "DepictionSpacerView"
+					},
+					{
+						"class": "DepictionSeparatorView"
+					}
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

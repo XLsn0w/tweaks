@@ -1,0 +1,9 @@
+{
+	"name": "UnSub「屏蔽越狱检测」",
+	"desc_short": "屏蔽越狱检测,这个比较安全,目前还没有发现任何bug和app屏蔽失效.有问题联系qq群77148984.-05-01更新支持A12.",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/unsub1.png'/></a><br></div>",
+	"open": true,
+}

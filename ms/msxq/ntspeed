@@ -1,0 +1,9 @@
+{
+	"name": "NtSpeed「虚浮网速」",
+	"desc_short": "让你在屏幕上看到当前的网络速度",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/ntspeed.png'/><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}

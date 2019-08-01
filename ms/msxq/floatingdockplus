@@ -1,0 +1,9 @@
+{
+	"name": "FloatingDockPlus「悬浮dock,分屏汉化版」",
+	"desc_short": "像ipad一样的dock栏,还可以分屏,可能会有个别软件闪退现象的bug(建议关闭分屏功能).如你安装的是官方版的插件,可以在源搜索汉化包来安装,安装无效果,请自行搜索libcolorpicker安装依赖名称为libcolorpicker Arm64e「A12」",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:11-12",
+	"changelog": "<strong>历史变跟</strong><br>2019-05-03更新支持A12<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/floatingdockplus1.png'/></a><br></div>",
+	"open": true,
+}

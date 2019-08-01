@@ -1,0 +1,9 @@
+{
+	"name": "Bazzi「百分比电池」",
+	"desc_short": "通知栏显示百分比电池图标,汉化版",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>2019-05-04更新修复A12bug<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/tupian/bazzi1.png'/></a><br></div>",
+	"open": true,
+}

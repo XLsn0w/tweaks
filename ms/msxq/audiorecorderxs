@@ -1,0 +1,9 @@
+{
+	"name": "AudioRecorder XS「通话录音」",
+	"desc_short": "通话录音首次安装.打开设置>找到通话录音的设置>修复一下文档权限！",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/audiorecorderxs.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/audiorecorderxs1.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/audiorecorderxs2.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/ipX.gif'/></a><br></div>",
+	"open": true,
+}

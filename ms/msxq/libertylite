@@ -1,0 +1,9 @@
+{
+	"name": "Liberty Lite「屏蔽越狱检测」",
+	"desc_short": "屏蔽越狱监测.开启支付设置",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/libertylite.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/libertylite1.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/面容.png'/><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}

@@ -1,0 +1,9 @@
+{
+	"name": "Barmoji「快捷表情」",
+	"desc_short": "为iphoneX键盘下方添加快捷表情.设置方法1/2/3/开关打开就行.只对自带的输入法有效,记录的也是你经常用的表情,如没有输入过表情的不会显",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>2019-05-01更新A12的支持<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/barmoji.png'/><img width=95% src='https://sileo-cydia.github.io/jietu/barmoji2.png'/><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}

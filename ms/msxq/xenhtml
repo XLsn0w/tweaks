@@ -1,0 +1,9 @@
+{
+	"name": "Xen HTML「高级锁屏汉化版」",
+	"desc_short": "统一的HTML呈现；锁定屏幕和主屏幕.自定义锁屏!",
+	"desc_version": "暂无历史版本",
+	"compatitle": "IOS:11-12",
+	"changelog": "<strong>历史变跟</strong><br>2019-05-03更新支持A12<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/jietu/xenhtml1.png'/></a><br></div>",
+	"open": true,
+}

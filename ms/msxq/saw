@@ -1,0 +1,9 @@
+{
+	"name": "Saw「去掉iphoneX底部留白」",
+	"desc_short": "去掉iphoneX底部的白边.A12插件设置不显示,不影响使用",
+	"desc_version": "暂无历史版本",
+	"compatitle": "ios:11-12",
+	"changelog": "<strong>历史变跟</strong><br>暂时没有历史版本<br>",
+	"screenshot": "<div style='text-align:center;'><img width=95% src='https://sileo-cydia.github.io/tupian/ipX.gif'/></a><br></div>",
+	"open": true,
+}
