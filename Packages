@@ -715,6 +715,22 @@ Dev: flipswitch
 Icon: file:///Applications/Preferences.app/icon-table.png
 Name: Flipswitch
 
+Package: com.abcydia.ntspeed
+Version: 1.0-27
+Architecture: iphoneos-arm
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5001)
+Filename: debs/ntspeed_1.0-27_iphoneos-arm.deb
+Size: 346562
+MD5sum: 5c7d384bd8288558d1ba5d28b848ff99
+SHA1: 254802b41b1dabde3a935c1b1c8d2c96ea605fad
+SHA256: 49e8fc4f9889e4da671fbd437ffbef15abd54d278fbdbb8e4005b14f822ce3ed
+Section: Tweaks
+Description: 轻量级网速悬浮显示
+Author: Julio / ABCydia
+Name: NtSpeed 悬浮网速
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.bingner.snappy
 Version: 1.2
 Architecture: iphoneos-arm
@@ -2264,24 +2280,6 @@ Description: Manage boot-nonce easy.
 Author: julioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.nonceset
 Name: NonceSet
-
-Package: com.julioverne.ntspeed
-Version: 0.2~beta7
-Architecture: iphoneos-arm
-Maintainer: Julio
-Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Filename: debs/com.julioverne.ntspeed_0.2~beta7_iphoneos-arm.deb
-Size: 110788
-MD5sum: ef362c4050a24743dafc91feb02cac45
-SHA1: 55faba4da01bbb88f5f9d68f79516540cef48032
-SHA256: ef5cf1285d1fecf42e554a900f09b407c6012af7055bcc88d58a8743acb5bfa3
-Section: Tweaks
-Homepage: http://twitter.com/ijulioverne
-Description: See Active Traffic Network Speed
-Author: julioverne
-Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ntspeed
-Icon: file:///Library/PreferenceBundles/NtSpeedSettings.bundle/icon@2x.png
-Name: NtSpeed
 
 Package: com.julioverne.otablocker
 Version: 0.2a
