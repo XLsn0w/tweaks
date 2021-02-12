@@ -9,11 +9,11 @@ cd $SCRIPTPATH
 # cd /Users/xlsn0w/debs
 
 # 删除之前Packages和Packages.bz2
-rm ./Packages
-rm ./Packages.bz2
+sudo rm ./Packages
+sudo rm ./Packages.bz2
 
 # 创建新的Packages
-dpkg-scanpackages debs / > Packages
+sudo dpkg-scanpackages debs / > Packages
 
 # 创建新的Packages.bz2
-bzip2 -fks Packages
+sudo bzip2 -fks Packages
