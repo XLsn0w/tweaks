@@ -938,25 +938,6 @@ Description: 充电状态下始终取消省点模式，非充电状态下始终�
 Author: eziochiu
 Name: lowpower
 
-Package: com.ezio.netspeed
-Version: 0.0.2-1
-Architecture: iphoneos-arm
-Maintainer: eziochiu
-Installed-Size: 424
-Depends: mobilesubstrate
-Conflicts: com.ezio.netspeed
-Replaces: com.ezio.netspeed
-Provides: com.ezio.netspeed
-Filename: debs/com.ezio.netspeed_0.0.2_iphoneos-arm.deb
-Size: 52902
-MD5sum: 0c5eb1dc1e7ba94cd372c9e12bfe7c47
-SHA1: 6667436c0b68c4a033f94b0d77c3e4dbfcc2b22f
-SHA256: 589f46ae0565c49432699b4b83441e58da3d9c4819108d255e9dbd8862a8e545
-Section: Tweaks
-Description: 轻量级网速显示插件，支持iOS10-iOS13，支持A6-A13处理器，支持手势拖动
-Author: eziochiu
-Name: NtSpeed
-
 Package: com.julioverne.adblock
 Version: 0.2~beta1
 Architecture: iphoneos-arm
