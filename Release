@@ -1,8 +1,8 @@
-Origin: XLsn0w
-Label: XLsn0w's Cydia Repo
+Origin: 公众号Cydia源
+Label: 微信公众号Cydia官方源
 Suite: stable
-Version: ©2019
+Version: ©2021
 Codename: XLsn0w
 Architecture: iphoneos-arm　
 Components: main
-Description: XLsn0w Cydia Tweaks
+Description: Cydia © XLsn0w Tweaks
