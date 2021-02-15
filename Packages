@@ -3849,23 +3849,21 @@ Description: header files for iPhone libraries
 Name: iPhone Headers
 
 Package: jp.akusio.backgrounderaction11
-Version: 0.0.7
+Version: 0.0.8
 Architecture: iphoneos-arm
 Maintainer: akusio <akusio-report@neko2.net>
 Installed-Size: 72
 Depends: mobilesubstrate, libactivator (>=1.9.13~beta2), Firmware(>=11.0)
-Filename: debs/jp.akusio.backgrounderaction11_0.0.7_iphoneos-arm.deb
-Size: 9262
-MD5sum: c6d9b25e2d4b9e0dffaea68dd8381c7b
-SHA1: 8ee06d4cdaa7e4c77fb1c07ad43414a984eaf307
-SHA256: 82df2c58a64d84f54cce0f08d09999e12ec1506832b230668680ade6625b27ec
+Filename: debs/jp.akusio.backgrounderaction11_0.0.8_iphoneos-arm.deb
+Size: 11254
+MD5sum: 4e5f9a3bf7181ab56b9f92c62d052a2b
+SHA1: db4126586d28fec526217d49f2f1ca06920705f2
+SHA256: ea95a4ff7b088375985dae7df02a79e6c006d911acd819c67eb60097b7da6a32
 Section: Tweaks
-Homepage: https://sileo-cydia.github.io/ms/description.html?id=backgrounderaction11
-Description: 目前在beta*中，将“切换背景模式”操作添加到activator。
+Description: *Currnetly in Beta* Add "Toggle Background Mode" action to Activator.
 Author: akusio <akusio-report@neko2.net>
-Depiction: https://sileo-cydia.github.io/ms/description.html?id=backgrounderaction11
-Name: Backgrounder Action「依赖文件」
-Sileodepiction: https://sileo-cydia.github.io/ms/msxq/backgrounderaction11.json
+Depiction: https://akusio.github.io/descriptions/backgrounderaction/index.html
+Name: Backgrounder Action
 
 Package: jp.akusio.backgrounderaction12
 Version: 0.1.0
@@ -3874,32 +3872,133 @@ Maintainer: akusio <akusio-report@neko2.net>
 Installed-Size: 276
 Depends: mobilesubstrate, com.opa334.ccsupport
 Filename: debs/jp.akusio.backgrounderaction12_0.1.0_iphoneos-arm.deb
-Size: 17092
-MD5sum: 8abd14effb37e60e5b4f3d2e09bc3fbd
-SHA1: 7d5ac4e39443d88dbce7953d50c2efd35d01d499
-SHA256: e859aa43203ca72f420f84946e3c22c8708a7cd9312f19ac7da0da854b2e719c
+Size: 21308
+MD5sum: 15173fd99097de7fbd73181cce6369ee
+SHA1: 1d619f4d3bf01e02a709bb53e9bde0b2de0c8788
+SHA256: 27b29176ad2aaf9cc46bc5c21ac2743da9042565ad620523a85570a34d397259
 Section: Tweaks
 Description: Add "Toggle Background Mode" action to ControlCenter.
 Author: akusio <akusio-report@neko2.net>
 Depiction: https://akusio.github.io/descriptions/backgrounderaction12/index.html
 Name: BackgrounderAction for CCSupport
 
+Package: jp.akusio.backgrounderaction13
+Version: 0.1.4
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 244
+Depends: mobilesubstrate, com.opa334.ccsupport
+Filename: debs/jp.akusio.backgrounderaction13_0.1.4_iphoneos-arm.deb
+Size: 14078
+MD5sum: c310760bda4ccc7e5ed3722aed9ef7de
+SHA1: b8619c32ee626b06376975eb84beecfd65cdae84
+SHA256: ad5dc505166d41fd2d60bd1ff9223e46ff1ba48999a57483cc78d8c946dec9c0
+Section: Tweaks
+Description: [iOS13]Add "Toggle Background Mode" action to ControlCenter.
+Author: akusio <akusio-report@neko2.net>
+Depiction: https://akusio.github.io/descriptions/backgrounderaction13/index.html
+Name: BackgrounderAction2 for CCSupport
+
 Package: jp.akusio.debypass
-Version: 0.1.0
+Version: 0.1.1
 Architecture: iphoneos-arm
 Maintainer: akusio
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: debs/jp.akusio.debypass_0.1.0.deb
-Size: 2710
-MD5sum: 6b00cf16e421b972db7a256ae3b838ab
-SHA1: 640e435f031f65f593f6d6d841a75b21ff22f1c5
-SHA256: 5062805e8e6e0a2c0b0c2aa226ad8054a0946fcfa1dc158f8729893df0cae83d
+Filename: debs/jp.akusio.debypass_0.1.1_iphoneos-arm.deb
+Size: 3434
+MD5sum: c30a9d8e5894db97f3068142067383e4
+SHA1: 03125e346546ccb319d2579b96cb4a1a43432abe
+SHA256: 4ace366c5ef5ce521888fe5e142999a6a9360349ee125e2e4b867bb9d246f0fa
 Section: Tweaks
 Description: bypass jailbreak detection.
 Author: akusio
 Depiction: https://akusio.github.io/descriptions/debypass/index.html
 Name: De-Bypass
+
+Package: jp.akusio.kernbypass
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 380
+Depends: mobilesubstrate, applist, preferenceloader, firmware(>=12.0)
+Filename: debs/jp.akusio.kernbypass_0.0.2_iphoneos-arm.deb
+Size: 12098
+MD5sum: bf11d32c8efe3576fb1716ad28227f0b
+SHA1: d54a0131ea51d21447be7950ef6cb495f751dc1a
+SHA256: 612ca12f0818ed7763806d87f0e4f977d5b208b2dd67b0997745bc0e39a434b2
+Section: System
+Description: kernel level jailbreak detection bypass.
+Author: akusio
+Depiction: http://akusio.github.io/descriptions/kernbypass/index.html
+Name: KernBypass
+
+Package: jp.akusio.milkyway
+Version: 0.1.4beta
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 208
+Depends: mobilesubstrate, jp.akusio.backgrounderaction11 | jp.akusio.backgrounderaction12
+Filename: debs/jp.akusio.milkyway_0.1.4beta_iphoneos-arm.deb
+Size: 53886
+MD5sum: 16215e3679d0e50c00f46af56a2ce41d
+SHA1: b215c92cbd349f14e54a0f9a6e61d417b1169c58
+SHA256: 6412eac6ad919b1f523a03115ae563cfe71ed63c498d1e11b1b661254dfb33f3
+Section: Tweaks
+Description: multitasking for iOS.
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway/index.html
+Name: MilkyWay
+
+Package: jp.akusio.milkyway2
+Version: 0.2.0-alpha
+Architecture: iphoneos-arm
+Maintainer: akusio <akusio-report@neko2.net>
+Installed-Size: 376
+Depends: mobilesubstrate, jp.akusio.backgrounderaction13, applist, preferenceloader
+Filename: debs/jp.akusio.milkyway2_0.2.0-alpha_iphoneos-arm.deb
+Size: 44822
+MD5sum: 45aff19ea7b0327a72e50c4a87d68cd8
+SHA1: a779498db20097cef4783e6d817796d640bd6372
+SHA256: 9c1aa016b720ecfaa6f3176cd88454ec8767f1832306b69cda85e3ed734165e3
+Section: Tweaks
+Description: multitasking for iOS13.
+Author: akusio <akusio-report@neko2.net>
+Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
+Name: MilkyWay2
+
+Package: jp.akusio.noentersafemode
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/jp.akusio.noentersafemode_0.0.1_iphoneos-arm.deb
+Size: 2748
+MD5sum: 3285d3bab78e89d7b937136d701671f5
+SHA1: b7e3ac2204004997c7a060c872185eaf91a7b58a
+SHA256: 116443f2b1a22cd539438402d63fcf5b95f9a5884473e10c8e265ca7442581ef
+Section: Tweaks
+Description: No longer enter safemode.
+Author: akusio
+Depiction: http://akusio.github.io/descriptions/noentersafemode/index.html
+Name: NoEnterSafeMode
+
+Package: jp.akusio.psappcompatibilitypatch
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: akusio
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/jp.akusio.psappcompatibilitypatch_0.0.1_iphoneos-arm.deb
+Size: 2314
+MD5sum: 7da249d450684bd6f528f8724a298726
+SHA1: 78c7352a16b9a2ba86d7aaf3510d3439a141ed11
+SHA256: 7ca3fbb7b313982edf4d405d26824b1a9c00759a20dec00c46fc20543527014b
+Section: Tweaks
+Description: Backgrounder Action 2 and PSApp compatibility patch.
+Author: akusio
+Name: Backgrounder Action2 PSAppCompatibilityPatch
 
 Package: jp.ashikase.libpackageinfo
 Version: 1.1.0.1-1
