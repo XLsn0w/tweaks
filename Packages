@@ -1,21 +1,3 @@
-Package: Delta
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: unknow
-Depends: firmware (>= 12.2)
-Replaces: com.rileytestut.Delta
-Filename: debs/Delta.deb
-Size: 13480968
-MD5sum: 22e36925e44907bd532a02517871a885
-SHA1: 63a9c568abb931c6d9ac7acb9b75f41f3dae0a1a
-SHA256: a907dc3c1cd7245a03dc88844c75d7af11a76d22aa0eb6d7a3fe9052ae04e7a0
-Section: Games
-Priority: optional
-Description: a GBA simlator for iOS
-Author: unknow
-Dev: unknow
-Name: Delta
-
 Package: class-dump
 Version: 3.1.2-x-1.0.1-1
 Architecture: iphoneos-arm
@@ -125,6 +107,20 @@ Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 12.png
 Name: Shadow 屏蔽越狱检测
 Sponsor: Ai-小苹果
+
+Package: com.fish.pubg
+Version: 1.5.6
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/com.fish.pubg_1.5.6_iphoneos-arm.deb
+Size: 1037404
+MD5sum: 39821356f08a009c0bd13c31f129cdf8
+SHA1: 139ad36db5ea880a59333edc7f7c62377420f2a7
+SHA256: 4d834707cbd69681af94902d14a0042273245c3493aebcd2aeb2628da19e2017
+Section: System
+Priority: optional
+Description: 泄露拉黑设备处理
+Name: pubg
 
 Package: com.hbko.wx62
 Version: 5.01
@@ -2010,85 +2006,6 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
 
-Package: cydia
-Version: 1.1.32~b12
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 7592
-Pre-Depends: debianutils, dpkg (>= 1.14.25-8), firmware (>=5.0)
-Depends: apt7-lib | libapt, apt7-key | apt-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), xz
-Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
-Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
-Provides: bigbossbetarepo, cydia-sources
-Filename: debs/cydia_1.1.32~b12_iphoneos-arm.deb
-Size: 1249474
-MD5sum: fbad1c954f546e72941e2fe6b24909d7
-SHA1: be90300e70ba6fde2b4ba8c39b5953aad108da0c
-SHA256: 293cba6ebf7e7e7f0bc8957914350ca24841c280e13e20374bd7e756b87ae5c0
-Section: Packaging
-Priority: required
-Description: graphical iPhone front-end for APT
-Tag: purpose::uikit, cydia::essential, role::enduser
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/cydia/
-Icon: file:///Applications/Cydia.app/Icon-60.png
-Name: Cydia Installer
-
-Package: dmg2img
-Version: 0-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 112
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/dmg2img_0-1_iphoneos-arm.deb
-Size: 5140
-MD5sum: 2e8fa6b27a731e23159f58829dfb6adf
-SHA1: 04b1df3e24f5000eb42ed06163161d27b919f529
-SHA256: f6a63b576ddc49d2b579413b45d0f070754d1c7e17d7bbcf733ceb049065225a
-Section: Archiving
-Priority: optional
-Multi-Arch: foreign
-Homepage: http://vu1tur.eu.org/tools/
-Description: converts compressed dmgs to HFS+
-Name: DMG2IMG
-
-Package: dpkg
-Version: 1.18.25-5
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 3920
-Pre-Depends: tar (>= 1.23)
-Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar, xz
-Filename: debs/dpkg_1.18.25-5_iphoneos-arm.deb
-Size: 472954
-MD5sum: 6148b5b80dbcb80d75e1c2aea8a4b0c2
-SHA1: 91893f3896e35facd6896bcdc5b15a5fbfbe1513
-SHA256: 3da78017c9482b3761937f75f57048186cc99c99f4b9ca20fef5bad9d99ff0d2
-Section: Packaging
-Priority: required
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: package maintainance tools from Debian
-Name: Debian Packager
-
-Package: dpkg-perl
-Version: 1.18.25-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1848
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: dpkg, perl
-Filename: debs/dpkg-perl_1.18.25-2_iphoneos-arm.deb
-Size: 148844
-MD5sum: bc01757416a0a507dd32cf613381f670
-SHA1: e5d0e17821857525b26d934df2010ffcc5b0789d
-SHA256: 554202cb6245e87b0685b16d7e3980599ca29c8089fe844d8e10990a84f025b1
-Section: Packaging
-Priority: optional
-Homepage: http://wiki.debian.org/Teams/Dpkg
-Description: perl-based package maintainance tools from Debian
-Name: Debian Packager (Perl)
-
 Package: flex
 Version: 2.6.4-1
 Architecture: iphoneos-arm
@@ -2106,24 +2023,6 @@ Priority: standard
 Multi-Arch: foreign
 Description: GNU lexer derived from Lex
 Name: Flex
-
-Package: iFBN
-Version: 4.0.2.3
-Architecture: iphoneos-arm
-Maintainer: EzioChiu<eziochiuchina@hotmaol.com>
-Depends: firmware (>= 10.0)
-Replaces: com.eziochiu.ipfba
-Filename: debs/iFBN.deb
-Size: 53609900
-MD5sum: 2a5bf2e3365be066d9eb77012b4fd3c0
-SHA1: 39bafd314a2a239154d47baa7471d56bf4ce5421
-SHA256: f726d312bbbb53865f08889361a368c01f9b6942d37bd9109dea7ab6d2407e25
-Section: Games
-Priority: optional
-Description: 4.0.2.3 has fixed series pgm's bugs
-Author: eziochiu
-Dev: eziochiu
-Name: iFBN
 
 Package: jp.akusio.debypass
 Version: 0.1.1
@@ -2177,23 +2076,21 @@ Description: pseudo-codesign Mach-O files
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
-Package: openssh
-Version: 7.9p1-3
+Package: me.tomt000.copylog
+Version: 1.2.2
 Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 9496
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libssl1.0
-Filename: debs/openssh_7.9p1-3_iphoneos-arm.deb
-Size: 612852
-MD5sum: 6ff3a2ff19b7d26c781347b8b8609140
-SHA1: ee950b1fceaa8b9c3adfe4cab3f50cf6a11b41a8
-SHA256: 6732ca4ff67f0c5fb024fd622ed826b6c30a8d72bdf79a091c14abf830ab2d2c
-Section: Networking
-Priority: important
-Description: secure remote access between machines
-Depiction: http://cydia.saurik.com/info/openssh/
-Name: OpenSSH
+Maintainer: TomT000
+Installed-Size: 3608
+Depends: mobilesubstrate
+Filename: debs/me.tomt000.copylog_1.2.2_iphoneos-arm.deb
+Size: 1374024
+MD5sum: cb74231ae49b97e20e485a92e3b3559b
+SHA1: f53b90165f6accd1b8a27372f13a0797b3ae5bc8
+SHA256: 904657768f1eb98d4a9f8a6c7c7fecdc2d241edb7090a671379df58e7dab52c4
+Section: Tweaks
+Description: Clipboard history manager for iOS!
+Author: TomT000
+Name: CopyLog
 
 Package: reveal2loader
 Version: 1.3
@@ -2214,53 +2111,6 @@ Author: eziochiu <eziochiuchina@hotmail.com>
 Dev: zidaneno5
 Name: RevealLoader fixed for iOS13
 
-Package: science.xnu.injector
-Version: 0.3
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 88
-Filename: debs/science.xnu.injector_0.3_iphoneos-arm.deb
-Size: 12662
-MD5sum: 1d270bb594d92c4bdd80d3cd387045f6
-SHA1: 474d852ca2dab234a9906365665d4b21b0891df1
-SHA256: 1a1359d57fb45cf401e0ac778a993b2bc966162c4f0333d4777c8957a6d1f3cd
-Section: System
-Description: Inject files to kernel trust cache
-Tag: role::hacker
-Author: Sam Bingner <maintainer@sbdhi.com>
-Name: Injector
-
-Package: science.xnu.undecimus.resources
-Version: 0.11
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 484
-Depends: firmware (>= 11.0), com.bingner.spawn, science.xnu.injector
-Filename: debs/science.xnu.undecimus.resources_0.11_iphoneos-arm.deb
-Size: 65188
-MD5sum: b137f9c790d7992a3e6e4344c7c5d033
-SHA1: fda621dacba353cf6f074234492b0c98985b751c
-SHA256: c6108290b2de4b6010c89f5b28a6b07c666f32545a07832e28ab4468b6f7b62e
-Section: System
-Description: Resources used by Unc0ver
-Name: Unc0ver Jailbreak Resources
-
-Package: sudo
-Version: 1.8.23-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 2664
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/sudo_1.8.23-2_iphoneos-arm.deb
-Size: 261024
-MD5sum: 5960dc77349b9f4630d51eafc4da5a51
-SHA1: ef49ff1c89f0be7b5a0756e7a0ca9e3c7276724a
-SHA256: 8e38b016a5ef535a76aa06e10b8cc8997bb00dfe04d1a74ef6b760b42cb8279c
-Section: Administration
-Priority: standard
-Description: temporarily assume root priviledges
-Name: Sudo
-
 Package: tsschecker
 Version: 263-1
 Architecture: iphoneos-arm
@@ -2268,7 +2118,7 @@ Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 208
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: curl, libfragmentzip, libirecovery, libplist
-Filename: debs/tsschecker_263-1_iphoneos-arm.deb
+Filename: debs/TssChecker_263-1_iphoneos-arm.deb
 Size: 24056
 MD5sum: 1d67eb2bbb85fad6e32c87e273728380
 SHA1: 44c3db233bd4359ffd8340ee32f6a47823080cf3
