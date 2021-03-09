@@ -731,39 +731,6 @@ Author: Julio / ABCydia
 Name: NtSpeed 悬浮网速
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.bingner.snappy
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 268
-Depends: firmware (>= 10.3)
-Filename: debs/com.bingner.snappy_1.2_iphoneos-arm.deb
-Size: 10698
-MD5sum: 6b412783a9d98082235f3f4f5fa1b729
-SHA1: c1da33727b6708ce04fe0fd6148938b84be426ab
-SHA256: 968f11d7d96b6f6fb11c75d6e26c30b7cebd1e9c76dcc3e00571485a2ad19c43
-Section: System
-Description: A Tool for APFS Snapshot Management
-Tag: role::hacker
-Author: Sam Bingner <snappy@bingner.com>
-Name: Snappy
-
-Package: com.bingner.spawn
-Version: 0.1-1
-Architecture: iphoneos-arm
-Maintainer: Samuel Bingner
-Installed-Size: 132
-Filename: debs/com.bingner.spawn_0.1-1_iphoneos-arm.deb
-Size: 4978
-MD5sum: cea579f1f0096571a8d5d9d1fcfc4127
-SHA1: 70c552c067b21aa2ec3a03d7d8e9b4391bf96344
-SHA256: 78e5779a1c67f4d1e59d0b339fb05cbd4bee782319849d09dab4e8b43ac6c224
-Section: System
-Description: A tool to call jbd to platformize a binary while executing it
-Tag: role::hacker
-Author: Samuel Bingner
-Name: spawn
-
 Package: com.chpwn.iconsupport
 Version: 1.11.1
 Architecture: iphoneos-arm
@@ -937,6 +904,24 @@ Section: Tweaks
 Description: 充电状态下始终取消省点模式，非充电状态下始终开启省电模式，无设置项
 Author: eziochiu
 Name: lowpower
+
+Package: com.hbko.wx62
+Version: 5.01
+Architecture: iphoneos-arm
+Essential: no
+Maintainer: Feng.com <support@office.feng.com>
+Installed-Size: 3084
+Filename: debs/wx62.deb
+Size: 3136824
+MD5sum: 1b2095aa6fbe3940c7c6becba050b31c
+SHA1: bc505d9ecfcf1facae58799cc3ccf26227515d54
+SHA256: b760a88fa2f9eb2b1e7367d5abc3648eade9e27a53204f5d5f6caaacfb7038aa
+Section: 趣玩-实用工具
+Priority: standard
+Tag: role::enduser
+Author: 62
+Name: 微信62数据登录/提取
+Sponsor: Feng.com <http://www.feng.com>
 
 Package: com.julioverne.adblock
 Version: 0.2~beta1
@@ -6191,233 +6176,6 @@ Dev: hbang
 Icon: file:///Library/PreferenceBundles/Cephei.bundle/icon@2x.png
 Name: Cephei
 Support: https://hashbang.productions/support/
-
-Package: x11
-Version: 1.6.6-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 6744
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: inputproto, kbproto, xcb, xextproto, xf86bigfontproto, xtrans
-Filename: debs/x11_1.6.6-1_iphoneos-arm.deb
-Size: 640526
-MD5sum: dc0e72eb9c2a9e5dec894343b1dda789
-SHA1: b4aea9ee806263e1c223174f58ababc3d1e05aa1
-SHA256: 77d4cda9dd27c7b8dadce577dbc8c9fb6d98321450f8f4aae2d8e3dcb4e3cc4f
-Section: X_Window
-Priority: optional
-Description: core library used by X applications
-
-Package: xar
-Version: 1.6.1-2
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 512
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libssl1.0, libxml2
-Filename: debs/xar_1.6.1-2_iphoneos-arm.deb
-Size: 56228
-MD5sum: 896431bd7040f4f4484e99f7da3d2f3a
-SHA1: 12f373e6a8d6cec6c9e572279ae1d3118562cb79
-SHA256: fa6dd4a2fddd2d58de142409ae15e62b30c8f06ff2fbcd3c430a1c999cb1536b
-Section: Archiving
-Priority: optional
-Homepage: http://code.google.com/p/xar/
-Description: easily extensible archive format
-Name: XAR
-
-Package: xau
-Version: 1.0.8-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 144
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: xproto
-Filename: debs/xau_1.0.8-1_iphoneos-arm.deb
-Size: 6290
-MD5sum: e404858903da46a8f5a36b30ba473bb1
-SHA1: 5db766dbc261d78c747df01fb22b3809b6483d18
-SHA256: 34f3abc48f476fa66529b7f37f86c6237bfa51d31da142fe54868a1067c7ec85
-Section: X_Window
-Priority: optional
-Description: X authetication protocol library
-
-Package: xcb
-Version: 1.13-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 8864
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: pthread-stubs, xau, xcb-proto
-Filename: debs/xcb_1.13-1_iphoneos-arm.deb
-Size: 278798
-MD5sum: 3bd63ca2828c2487b14617b401bb5e0d
-SHA1: 9c8e8133320205996f7247581e804909671f21be
-SHA256: f762bddf39327618b7c6bf920f38ae3e0c4dda81fee3def4b36f9b5dc6287a3e
-Section: X_Window
-Priority: optional
-Description: smaller, faster X protocol library
-
-Package: xcb-proto
-Version: 1.13-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1984
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/xcb-proto_1.13-1_iphoneos-arm.deb
-Size: 101926
-MD5sum: f93eb010c9a17c3c30e2fbb130a4591f
-SHA1: 6056732bb8ed2d49fe9996dbb8f203e544cfdf31
-SHA256: 4f44cb81067999e78b713e0359f51d413882d85aed3e28f33fe5ac3491c0f655
-Section: X_Window
-Priority: optional
-Description: prototypes for X client library
-
-Package: xext
-Version: 1.3.3-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 432
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: x11
-Filename: debs/xext_1.3.3-1_iphoneos-arm.deb
-Size: 29880
-MD5sum: e1077a86d5ea584ebcea7ff9660a2cb3
-SHA1: 38208bb52ae18c93724d7f71e1232c82c240e299
-SHA256: 56e35e0bddf9fb617d3c49461d31e5e7b85b2512acf977ab1b95475ee682bcc5
-Section: X_Window
-Priority: optional
-Description: helper library for X extensions
-
-Package: xf86bigfontproto
-Version: 1.2.0-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 40
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/xf86bigfontproto_1.2.0-1_iphoneos-arm.deb
-Size: 1906
-MD5sum: 8e26c1e46c982568e13d2e56e88efe1e
-SHA1: b19b622f262e9c71179b1daedf08e5ceff18520c
-SHA256: a20fd492c7b3d4f0a61e7339adf696228d92ca4423ac66ef43ec5af0db949deb
-Section: X_Window
-Priority: optional
-Description: prototypes for X big fonts
-
-Package: xineramaproto
-Version: 1.1.2-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 48
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/xineramaproto_1.1.2-1_iphoneos-arm.deb
-Size: 3280
-MD5sum: f933ab4a5ac8fe028ecee1b69d7e9af3
-SHA1: dd9c1588259a05573da287fda6be84d3678f51a9
-SHA256: c58e7f3ecb2c449b7d952276e0fc805b8385a827e6c2e0f7ea66c81d5a6c32e1
-Section: X_Window
-Priority: optional
-Multi-Arch: foreign
-Description: protoypes for Xinerama library
-
-Package: xml2
-Version: 0.5-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 440
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libxml2
-Filename: debs/xml2_0.5-1_iphoneos-arm.deb
-Size: 8994
-MD5sum: dd8284cf5e960640e0bdaa5677616111
-SHA1: 314d1d5d79da4be2fca84eace63b588c05322730
-SHA256: e23469733a9cc02fb5e6dadbf1e630a5b3c81aa16c58d9c57b1d2e6a3bed5950
-Section: Utilities
-Priority: optional
-Description: simple tools to help grep xml
-
-Package: xproto
-Version: 7.0.31-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 856
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/xproto_7.0.31-1_iphoneos-arm.deb
-Size: 58956
-MD5sum: 5956d4a09cf38f701d7757296df8cefd
-SHA1: d6419d510049585f1a9645c347286081121fb3f8
-SHA256: 3f393361be09b7c416a81813433b55dcc72af9f025c9e8c1a3a142a9080a51e9
-Section: X_Window
-Priority: optional
-Description: prototypes for core X libraries
-
-Package: xt
-Version: 1.1.5-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1528
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: sm, x11
-Filename: debs/xt_1.1.5-1_iphoneos-arm.deb
-Size: 163832
-MD5sum: 8a7e018bf094d9d098cc6991bdea6d97
-SHA1: 127f1cb2df4fca6efb8c3f8a984468ae7c8e1f50
-SHA256: f7d0791c2dd10eb58e02f31c8866885698f80db674e5fa842df1abfbd3aae45a
-Section: X_Window
-Priority: optional
-Description: X toolkit intrinsics library
-
-Package: xtrans
-Version: 1.3.5-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 448
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/xtrans_1.3.5-1_iphoneos-arm.deb
-Size: 35734
-MD5sum: 640486e775e881c14151ba24b2bc5f4d
-SHA1: 7b6ad54845bd0eb1b9cd5926f9e88d16130143d2
-SHA256: 718e7443330da9f8d1480c2f72b00e69292e8a0b386e2283ad43a746dcc15f2a
-Section: X_Window
-Priority: optional
-Description: X transport abstraction library
-
-Package: xz
-Version: 5.2.4-4
-Architecture: iphoneos-arm
-Essential: yes
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1176
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: lzma (>=1:0)
-Conflicts: xz-utils, com.mc.xz
-Provides: xz-utils
-Filename: debs/xz_5.2.4-4_iphoneos-arm.deb
-Size: 128578
-MD5sum: 74eb7f8aebc92cad1260292d8b695eac
-SHA1: ba4a9539be17b5b91c514d13ddc65e22e89f31e5
-SHA256: ea6a074f3afe5f5ebd8cab735ce862e24f72bbbecb6252a43f2fc140f4d94933
-Section: Archiving
-Priority: required
-Homepage: http://tukaani.org/lzma/
-Description: slower, but better, compression algorithm
-Name: XZ Utils
-
-Package: zip
-Version: 2.32-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 728
-Pre-Depends: dpkg (>= 1.14.25-8)
-Filename: debs/zip_2.32-1_iphoneos-arm.deb
-Size: 52214
-MD5sum: b1cef31bfb417f23e93861159176af0b
-SHA1: 32ea892c1964f8f6893b0d157b5497aab3769588
-SHA256: 55b500e5750a7fe9395f8571749c0e04a90111b271832e552b6a3cf64324393c
-Section: Archiving
-Priority: important
-Multi-Arch: foreign
-Description: standard Windows compression tool
 
 Package: zorro48810
 Version: 4.8.8
